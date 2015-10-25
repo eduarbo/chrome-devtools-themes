@@ -1,5 +1,5 @@
 {
-  "name": "zero-base-themes",
+  "name": "chrome-devtools-themes",
   "version": "0.0.1",
   "description": "Chrome Devtools themes using the Zero-Base Template",
   "main": "Gruntfile.js",
@@ -7,13 +7,13 @@
     "type": "git",
     "url": "https://github.com/mauricecruz/zero-base-themes.git"
   },
-  "author": "Maurice Cruz",
-  "license": "https://github.com/mauricecruz/zero-base-themes/blob/master/LICENSE",
+  "author": "Eduardo Ruiz",
+  "license": "https://github.com/eduarbo/chrome-devtools-themes/blob/master/LICENSE",
   "devDependencies": {
-    "grunt-contrib-less": "^0.11.4",
-    "grunt-contrib-watch": "~0.5.3",
-    "grunt": "~0.4.1",
-    "grunt-contrib-compress": "~0.7.0",
-    "grunt-bump": "0.0.13"
+    "grunt-contrib-less": "^1.0.0",
+    "grunt-contrib-watch": "~0.6.1",
+    "grunt": "~0.4.5",
+    "grunt-contrib-compress": "~0.14.0",
+    "grunt-bump": "0.6.0"
   }
 }
