@@ -2,18 +2,17 @@
   "name": "chrome-devtools-themes",
   "version": "0.0.1",
   "description": "Chrome Devtools themes using the Zero-Base Template",
-  "main": "Gruntfile.js",
+  "main": "gulpfile.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/mauricecruz/zero-base-themes.git"
+    "url": "https://github.com/eduarbo/chrome-devtools-themes.git"
   },
   "author": "Eduardo Ruiz",
   "license": "https://github.com/eduarbo/chrome-devtools-themes/blob/master/LICENSE",
   "devDependencies": {
-    "grunt-contrib-less": "^1.0.0",
-    "grunt-contrib-watch": "~0.6.1",
-    "grunt": "~0.4.5",
-    "grunt-contrib-compress": "~0.14.0",
-    "grunt-bump": "0.6.0"
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.3",
+    "gulp-minify-css": "^1.2.1",
+    "gulp-zip": "^3.0.2"
   }
 }
